@@ -17,8 +17,8 @@ Example usage:
 """
 
 __version__ = "1.0.0"
-__author__ = "CAMP Development Team"
-__email__ = "contact@camp-protocol.org"
+__author__ = "Jafary"
+__email__ = "muhammadjafargofirov1@gmil.com"
 __license__ = "MIT"
 
 # Public API
