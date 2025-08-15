@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "camp"
+version = "1.0.0"
+description = "Ciphered Access Mapping Protocol implementation"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=41.0.0",
+    "base58>=2.1.0",
+]
+
+[project.scripts]
+camp = "camp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

@@ -1,0 +1,5 @@
+This is a sample payload file for CAMP testing.
+It contains some text data that will be used as the MediaRef.
+The selectors in sample_map.json will extract specific bytes from this file.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+Additional content for testing various selector types and boundary conditions.

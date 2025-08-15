@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "media_ref_type": "file",
+  "media_ref": "examples/payload.bin",
+  "selectors": [
+    {"type": "byte_offset", "offset": 0, "length": 8},
+    {"type": "byte_stride", "start": 8, "step": 3, "count": 5},
+    {"type": "segment_hash", "start": 20, "length": 10}
+  ],
+  "payload_locator": {
+    "type": "file",
+    "value": "examples/encrypted_payload.bin"
+  }
+}
